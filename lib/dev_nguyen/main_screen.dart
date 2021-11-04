@@ -9,8 +9,12 @@ class MainScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Dev Nguyen Screen"),
       ),
-      body: const Center(
-        child: Text("Hello Nobi"),
+      body: Column(
+        children: const [
+          Center(
+            child: Text("Hello Nobi"),
+          ),
+        ],
       ),
     );
   }
