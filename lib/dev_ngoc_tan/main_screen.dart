@@ -9,8 +9,8 @@ class MainScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Dev Ngoc Tuan Screen"),
       ),
-      body: const Center(
-        child: Text("Hello Ngoc Tan"),
+      body: const Center('
+HELLO BABY'
       ),
     );
   }
