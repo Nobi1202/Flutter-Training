@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_traning_chill/dev_ngoc_tan/regex_screen.dart';
 
 class CustomButton extends StatelessWidget {
   const CustomButton({Key? key, required this.label}) : super(key: key);
@@ -8,7 +9,12 @@ class CustomButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ElevatedButton(
-      onPressed: () {},
+      onPressed: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => Regex_Screen()),
+        );
+      },
       child: Padding(
         padding: const EdgeInsets.all(8.0),
         child: Text(

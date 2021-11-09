@@ -4,6 +4,8 @@ import 'package:flutter_traning_chill/dev_ngoc_tan/custom_button.dart';
 class MainScreen extends StatelessWidget {
   const MainScreen({Key? key}) : super(key: key);
 
+  get children => null;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -15,7 +17,7 @@ class MainScreen extends StatelessWidget {
         child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
-            children: const [
+            children: [
               SizedBox(height: 50),
               Text(
                 'Collection of Greenify template',
