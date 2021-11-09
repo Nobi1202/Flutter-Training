@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_traning_chill/dev_ngoc_tan/custom_button.dart';
 
 class MainScreen extends StatelessWidget {
   const MainScreen({Key? key}) : super(key: key);
@@ -23,85 +24,15 @@ class MainScreen extends StatelessWidget {
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.w700),
               ),
               SizedBox(height: 40),
-              ElevatedButton(
-                onPressed: () {},
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Text(
-                    'Template 1',
-                    style: TextStyle(fontSize: 30),
-                  ),
-                ),
-                style: ElevatedButton.styleFrom(
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(12), // <-- Radius
-                  ),
-                ),
-              ),
+              CustomButton(label: "Template 1"),
               SizedBox(height: 40),
-              ElevatedButton(
-                onPressed: () {},
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Text(
-                    'Template 2',
-                    style: TextStyle(fontSize: 30),
-                  ),
-                ),
-                style: ElevatedButton.styleFrom(
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(12), // <-- Radius
-                  ),
-                ),
-              ),
+              CustomButton(label: "Template 2"),
               SizedBox(height: 40),
-              ElevatedButton(
-                onPressed: () {},
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Text(
-                    'Template 3',
-                    style: TextStyle(fontSize: 30),
-                  ),
-                ),
-                style: ElevatedButton.styleFrom(
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(12), // <-- Radius
-                  ),
-                ),
-              ),
+              CustomButton(label: "Template 3"),
               SizedBox(height: 40),
-              ElevatedButton(
-                onPressed: () {},
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Text(
-                    'Template 4',
-                    style: TextStyle(fontSize: 30),
-                  ),
-                ),
-                style: ElevatedButton.styleFrom(
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(12), // <-- Radius
-                  ),
-                ),
-              ),
+              CustomButton(label: "Template 4"),
               SizedBox(height: 40),
-              ElevatedButton(
-                onPressed: () {},
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Text(
-                    'Template 5',
-                    style: TextStyle(fontSize: 30),
-                  ),
-                ),
-                style: ElevatedButton.styleFrom(
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(12), // <-- Radius
-                  ),
-                ),
-              ),
+              CustomButton(label: "Template 5"),
             ],
           ),
         ),
