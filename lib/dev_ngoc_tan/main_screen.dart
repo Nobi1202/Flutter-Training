@@ -18,7 +18,7 @@ class MainScreen extends StatelessWidget {
             children: const [
               SizedBox(height: 50),
               Text(
-                'Collection of Greenify template',
+                'Flutter Training',
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.w700),
               ),
               SizedBox(height: 40),
