@@ -10,7 +10,7 @@ class MainScreen extends StatelessWidget {
         title: const Text("Dev Ngoc Tuan Screen"),
       ),
       body: const Center(
-        child: Text("xin??"),
+        child: Text("Vẫn chưa được.huhuhuhu?"),
       ),
     );
   }
