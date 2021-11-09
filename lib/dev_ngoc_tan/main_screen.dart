@@ -22,7 +22,7 @@ class MainScreen extends StatelessWidget {
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.w700),
               ),
               SizedBox(height: 40),
-              CustomButton(label: "Template 1"),
+              CustomButton(label: "Regex Screen"),
               SizedBox(height: 40),
               CustomButton(label: "Template 2"),
               SizedBox(height: 40),
