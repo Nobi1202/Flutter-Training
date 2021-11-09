@@ -18,11 +18,11 @@ class MainScreen extends StatelessWidget {
             children: const [
               SizedBox(height: 50),
               Text(
-                'Collection of Greenify template',
+                'Flutter Training',
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.w700),
               ),
               SizedBox(height: 40),
-              CustomButton(label: "Template 1"),
+              CustomButton(label: "Regex Screen"),
               SizedBox(height: 40),
               CustomButton(label: "Template 2"),
               SizedBox(height: 40),
