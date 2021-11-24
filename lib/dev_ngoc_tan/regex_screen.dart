@@ -60,6 +60,7 @@ class Regex_Screen extends StatelessWidget {
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Text(
+                  
                     'START',
                     style: TextStyle(fontSize: 30),
                   ),
