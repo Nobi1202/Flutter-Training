@@ -19,12 +19,12 @@ class Regex_Screen extends StatelessWidget {
             children: [
               SizedBox(height: 40),
               ElevatedButton(
-               onPressed: () {
-                 Navigator.push(
-          context,
-          MaterialPageRoute(builder: (context) => Regex_Screen2()),
-        );
-               },
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => Regex_Screen2()),
+                  );
+                },
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Text(
@@ -38,10 +38,10 @@ class Regex_Screen extends StatelessWidget {
                   ),
                 ),
               ),
-              SizedBox(height: 40),
+               SizedBox(height: 40),
               ElevatedButton(
                 onPressed: () {},
-                child: Padding(
+
                   padding: const EdgeInsets.all(8.0),
                   child: Text(
                     '  Password  ',
@@ -60,7 +60,6 @@ class Regex_Screen extends StatelessWidget {
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Text(
-                  
                     'START',
                     style: TextStyle(fontSize: 30),
                   ),
